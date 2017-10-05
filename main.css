@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+    font-size: 2em;
+}
+
+li {
+    padding: 1em;
+}
+
+.nav-menu li {
+    display: inline;
+    list-style: none;
+}
+
+form {
+    padding: 8px 24px;
+}
+form > input,
+form > button,
+form > textarea {
+    display: block;
+    width: 240px;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    border: 1px solid #888;
+    font-size: 14px;
+    background: none;
+    box-shadow:none;
+}
